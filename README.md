@@ -12,7 +12,7 @@ The application is centered around managing **Task** entities. Below are the fie
 - **End Time** (datetime): The time when the task is expected to end.
 - **Task Type** (string): A category for the task (e.g., personal, sport, family, work).
 - **Description** (string, optional): Additional details or notes about the task.
-- **Day** (enum: Monday-Sunday): The day of the week the task is assigned to.
+- **Date** (datetime): The day of the week the task is assigned to.
 - **Status** (enum: Pending, In Progress, Completed): The current state of the task.
 
 ## CRUD Operations
