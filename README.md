@@ -12,7 +12,7 @@ The application is centered around managing **Task** entities. Below are the fie
 - **End Time** (datetime): The time when the task is expected to end.
 - **Task Type** (string): A category for the task (e.g., personal, sport, family, work).
 - **Description** (string, optional): Additional details or notes about the task.
-- **Date** (datetime): The day of the week the task is assigned to.
+- **Date** (date): The day of the week the task is assigned to.
 - **Status** (enum: Pending, In Progress, Completed): The current state of the task.
 
 ## CRUD Operations
@@ -28,7 +28,7 @@ The application is centered around managing **Task** entities. Below are the fie
 ### 2. **Read**
    - **Description**: Users can view all tasks scheduled for any specific day or filter by task type, status, or other fields.
    - **Steps**:
-     1. The user selects a specific day or filter option.
+     1. The user selects a specific day and/or filter option.
      2. The application retrieves task data from the local database and, if online, syncs with the server for any updated tasks.
      3. Tasks are displayed to the user in a list or calendar view.
 
