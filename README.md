@@ -1,7 +1,7 @@
 # Task Manager Application
 
 ## Description
-The **Task Manager Application** is designed to simplify the process of organizing and managing your daily tasks. It allows users to create, update, and delete tasks with ease, all in one centralized place. The application ensures that you stay on top of your schedule, categorizing tasks by type (e.g., personal, sport, family), and giving you control over when tasks start and end. You can manage your tasks for any day of the week, and the app will persist changes both locally and on a server for seamless access across devices.
+The **Task Manager Application** is designed to simplify the process of organizing and managing your daily tasks. It allows users to create, update, and delete tasks with ease, all in one centralized place. The application ensures that you stay on top of your schedule, categorizing tasks by type (e.g., personal, sport, family), and giving you control over when tasks start and end. You can manage your tasks for any day of the week, and the app will persist changes both locally and on a server for seamless access across devices. The application also allows you to filter through the tasks by their type for better visibility and ease of access.
 
 ## Domain Details
 The application is centered around managing **Task** entities. Below are the fields that each task will contain, along with a description of each:
